@@ -1,0 +1,25 @@
+{
+  "name": "grow",
+  "version": "1.0.0",
+  "description": "back and front end challenges for Grow",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/elliotec/grow.git"
+  },
+  "author": "Mike Elliott",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elliotec/grow/issues"
+  },
+  "homepage": "https://github.com/elliotec/grow#readme",
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.3",
+    "node-fetch": "^1.7.1",
+    "request": "^2.81.0"
+  }
+}
