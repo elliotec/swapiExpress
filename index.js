@@ -101,7 +101,7 @@ app.get('/planetresidents', function (req, res) {
         const planets = json.results;
         return Promise.all(planets.map(planet => {
             return getResidents(planet).then(residents => {
-                return { [planet.name] :residents};
+                return { [planet.name] : residents };
             });
         }));
     }
